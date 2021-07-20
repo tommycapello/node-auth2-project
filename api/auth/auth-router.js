@@ -26,7 +26,6 @@ router.post("/register", validateRoleName, (req, res, next) => {
     res.status(201).json(nUser)
   })
   .catch(next)
-
 });
 
 
